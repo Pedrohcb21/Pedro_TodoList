@@ -1,4 +1,4 @@
-//Login
+// Login
 let logado = "";
 function login () {
     logado = JSON.parse(sessionStorage.getItem("logado")) || false;
